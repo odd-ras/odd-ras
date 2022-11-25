@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap 5</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/0b9893e39e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Navigation tab-->
+        <div class="container-fluid">
+            <nav class="navbar bg-light-fixed-top">
+                <div class="container">
+                    <img class="navbar-brand" src="https://via.placeholder.com/236x50" alt="placeholder">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-size-xl offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <img src="https://via.placeholder.com/236x50" alt="placeholder">
+                            </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="margin-left: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html"><p class="fs-5 fw-lighter">Home</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="medical-professionals.html"><p class="fs-5 fw-lighter">Medical Professionals</p></a>
+                                </li>
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="jobs.html"><p class="fs-5 fw-lighter">Search Jobs</p></a>
+                                </li>   
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="join-our-team.html"><p class="fs-5 fw-lighter">Join Our Team</p></a>
+                                </li>
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="refer-a-friend.html"><p class="fs-5 fw-lighter">Refer a Friend</p></a>
+                                </li>
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="faq.html"><p class="fs-5 fw-lighter">FAQs</p></a>
+                                </li>
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="medical-facilities.html"><p class="fs-5 fw-lighter">Medical Facilities</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="request-employee.html"><p class="fs-5 fw-lighter">Request an Employee</p></a>
+                                </li>
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="request-a-demo.html"><p class="fs-5 fw-lighter">Request a Demo</p></a>
+                                </li>
+                                <li class="nav-item" style="margin-left: 50px;">
+                                    <a class="nav-link" href="#"><p class="fs-5 fw-lighter">Blog</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html"><p class="fs-5 fw-lighter">About Us</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><p class="fs-5 fw-lighter">Events</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="careers.html"><p class="fs-5 fw-lighter">Careers</p></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"><p class="fs-5 fw-lighter">Contact</p></a>
+                                </li>
+                            </ul>
+                            <ul class="list-inline text-center">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <img src="icons/facebook.svg" style="width: 30px; height: 30px;">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <img src="icons/twitter.svg" style="width: 30px; height: 30px;">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <img src="icons/instagram.svg" style="width: 30px; height: 30px;">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <img src="icons/linkedin.svg" style="width: 30px; height: 30px;">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav> 
+        </div>
+        <!--tab with background image-->
+        <!--Staffing form-->
+        <div class="container-fluid text-center">
+            <h2 class="display-4">
+                Elite Medical Staffing Jobs
+                <button type="button" class="btn btn-success" disabled>Apply</button>
+            </h2>
+            <div class="container-fluid text-center mb-4 mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <form class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label" for="inputFirstName">* First Name</label>
+                                <input type="text" class="form-control" id="inputFirstName">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputLastName">* Last Name</label>
+                                <input type="text" class="form-control" id="inputLastName">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputEmailAddress">* Email Address</label>
+                                <input type="email" class="form-control" id="inputEmailAddress">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputTelephoneNumber">* Telephone Number</label>
+                                <input type="text" class="form-control" id="inputTelephoneNumber">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputStreetAddress">* Street Address</label>
+                                <input type="text" class="form-control" id="inputStreetAddress">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputStreetAddress2">* Street Address 2</label>
+                                <input type="text" class="form-control" id="inputStreetAddress2">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputZipCode">* Zip Code</label>
+                                <input type="text" class="form-control" id="inputZipCode">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputCountry">* Country</label>
+                                <select class="form-select" id="inputCountry">
+                                    <option value="1">Select</option>
+                                    <option value="2">Lorem Ipsum</option>
+                                    <option value="3">Lorem Ipsum</option>
+                                </select>
+                                
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputCity">* City</label>
+                                <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputState">* State</label>
+                                <select class="form-select" id="inputState">
+                                    <option value="1">Select</option>
+                                    <option value="2">Lorem Ipsum</option>
+                                    <option value="3">Lorem Ipsum</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputDiscipline">* Discipline</label>
+                                <select class="form-select" id="inputDiscipline">
+                                    <option value="1">Select</option>
+                                    <option value="2">Lorem Ipsum</option>
+                                    <option value="3">Lorem Ipsum</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputSpecialty">* Specialty</label>
+                                <select class="form-select" id="inputSpecialty">
+                                    <option value="1">Select</option>
+                                    <option value="2">Lorem Ipsum</option>
+                                    <option value="3">Lorem Ipsum</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label" for="inputOpps">What type of opportunities are you interested in?</label>
+                                <select class="form-select" id="inputOpps">
+                                    <option value="1">Select</option>
+                                    <option value="2">Lorem Ipsum</option>
+                                    <option value="3">Lorem Ipsum</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-primary">Continue</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Footer-->
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-3 text-center" style="margin-top: 30px; margin-bottom: 20px;">
+                    <img class="navbar-brand" src="https://via.placeholder.com/236x50" alt="placeholder" style="margin-bottom: 50px;">
+                    <div class="container-fluid mb-4 mt-4">
+                        <button type="button" class="btn btn-lg btn-outline-secondary">Lorem Ipsum</button>
+                        <button type="button" class="btn btn-lg btn-outline-secondary">Lorem Ipsum</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 text-center" style="margin-top: 30px; margin-bottom: 20px;">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="link-secondary">Lorem Ipsum</a></li>
+                        <li class="list-inline-item"><a href="#" class="link-secondary">Lorem Ipsum</a></li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="icons/facebook.svg" style="width: 30px; height: 30px;">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="icons/twitter.svg" style="width: 30px; height: 30px;">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="icons/instagram.svg" style="width: 30px; height: 30px;">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <img src="icons/linkedin.svg" style="width: 30px; height: 30px;">
+                            </a>
+                        </li>
+                    </ul>
+                    <p style="margin-top: 70px;"><img src="icons/c-circle.svg" alt="...">2022 netus et malesuada fames ac.</p>
+                </div>
+                <div class="col-12 col-md-3 text-center" style="margin-top: 30px; margin-bottom: 20px;">
+                    <figure class="text-end">
+                        <blockquote class="blockquote">
+                            <p class="display-4 fs-3 fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </blockquote>
+                        <a href="#" class="mt-4"><p class="lead">Lorem Ipsum</p></a>
+                    </figure>
+                    
+                </div>
+            </div>
+        </div>
+
+               
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
