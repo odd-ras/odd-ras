@@ -1,106 +1,111 @@
 .home-background {
-    background-image: url('https://via.placeholder.com/960x700');
-    background-size: contain;
+  background-image: url("https://via.placeholder.com/960x700");
+  background-size: contain;
 }
 
 .button-link {
-    border-radius: 40px;
+  border-radius: 40px;
 }
 
 .my-image {
-    background-image: url('https://via.placeholder.com/960x700');
-    background-size: contain;
+  background-image: url("https://via.placeholder.com/960x700");
+  background-size: contain;
 }
 
 .offcanvas-size-xl {
-    --bs-offcanvas-width: min(95vw, 580px) !important;
+  --bs-offcanvas-width: min(95vw, 580px) !important;
 }
 
 .back-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -100;
-    min-width: 100%;
-    min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
     height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
     width: auto;
-    object-fit: cover;
-}
-
-@media (min-aspect-ratio: 16/9){
-    .back-video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-aspect-ratio: 16/9){
-    .back-video {
-        width: auto;
-        height: 100%;
-    }
+    height: 100%;
+  }
 }
 
 .fit-image {
-    width: 100%;
-    height: 606.38px;
-    object-fit: cover;
+  width: 100%;
+  height: 606.38px;
+  object-fit: cover;
 }
 
 .nurse-image {
-    width: 100%;
-    height: 619.19px;
-    object-fit: cover;
+  width: 100%;
+  height: 619.19px;
+  object-fit: cover;
 }
 
 .healthcare-img {
-    width: 100%;
-    height: 606px;
-    object-fit: cover;
+  width: 100%;
+  height: 606px;
+  object-fit: cover;
 }
 
 .theatre-fit {
-    width: 100%;
-    height: 522px;
-    object-fit: cover;
+  width: 100%;
+  height: 522px;
+  object-fit: cover;
 }
 
 .hallway-fit {
-    width: 100%;
-    height: 598px;
-    object-fit: cover;
+  width: 100%;
+  height: 598px;
+  object-fit: cover;
 }
 
 .demo-img-fit {
-    width: 100%;
-    height: 604px;
-    object-fit: cover;
+  width: 100%;
+  height: 604px;
+  object-fit: cover;
 }
 
 .interview-img-fit {
-    width: 100%;
-    height: 564.83px;
-    object-fit: cover;
+  width: 100%;
+  height: 564.83px;
+  object-fit: cover;
 }
 .contact-img-fit {
-    width: 100%;
-    height: 838px;
-    object-fit: cover;
+  width: 100%;
+  height: 838px;
+  object-fit: cover;
 }
 
 .team-doctor-fit {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
 }
 
 .footer-anchor {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-link {
-    margin: 0px;
-    padding: 0px;
-    color: lightslategray;
+  margin: 0px;
+  padding: 0px;
+  color: lightslategray;
+}
+
+.carousel-anchor {
+  text-decoration: none;
+  color: white;
 }
